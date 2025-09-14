@@ -26,8 +26,6 @@ This repository contains practice implementations and personal explorations as I
 - **Practice/** - Personal experimentation and concept testing
 - **Exercises/** - Course exercises as taught by Bruno Simon
 
-For organized lesson-by-lesson progression, check out my main course repository: [link-to-your-lessons-repo]
-
 ## Development Setup
 
 Each project includes its own `package.json` with the necessary dependencies:
