@@ -40,7 +40,7 @@ controls.enableDamping = true
 /**
  * Body
  */
-let scaleCount = Math.round(sizes.width / sizes.height) + 1
+let scaleCount = Math.round(sizes.width / sizes.height) * 1.5
 
 // Uniform for Cubes
 const cubeGroup = new THREE.Group()
@@ -112,7 +112,7 @@ window.addEventListener('resize', () => {
   camera.updateProjectionMatrix()
 
   // Update Scale Count
-  scaleCount = Math.round(sizes.width / sizes.height) + 1
+  scaleCount = Math.round(sizes.width / sizes.height) * 1.5
   //   console.log(scaleCount)
 
   // Update Renderer
