@@ -40,7 +40,7 @@ controls.enableDamping = true
 /**
  * Body
  */
-let scaleCount = Math.round(sizes.width / sizes.height) * 1.5
+let scaleCount = Math.round(sizes.width / sizes.height) + 1
 
 // Uniform for Cubes
 const cubeGroup = new THREE.Group()
@@ -80,8 +80,9 @@ const adjustCubeGrid = () => {
     // const counter = cubeArray.indexOf(cubeArray[i])
     const mod = i % scaleCount
     // console.log(counter, mod, counter - mod, counter + mod)
-    cubeArray[i].position.z = i - mod - 3
-    cubeArray[i].position.x = mod * 2 - 2
+    console.log(i, i - mod, 'x = ' + mod * 2, 'z = ' + ((i - mod) - scaleCount))
+    cubeArray[i].position.z = (i - mod) - scaleCount
+    cubeArray[i].position.x = mod * 2 - scaleCount + 1
   }
 }
 adjustCubeGrid()
@@ -112,7 +113,7 @@ window.addEventListener('resize', () => {
   camera.updateProjectionMatrix()
 
   // Update Scale Count
-  scaleCount = Math.round(sizes.width / sizes.height) * 1.5
+  scaleCount = Math.round(sizes.width / sizes.height) + 1
   //   console.log(scaleCount)
 
   // Update Renderer
