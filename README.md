@@ -8,7 +8,6 @@ This repository contains my progress through the comprehensive Three.js Journey 
 
 - **Practice Projects** - Hands-on implementations of course concepts
 - **Exercises** - Coding challenges and experiments
-- **Notes** - Key insights and techniques learned
 
 ## Course Structure
 
