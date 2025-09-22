@@ -12,8 +12,8 @@ This repository contains my progress through the comprehensive Three.js Journey 
 ## Course Structure
 
 ### Current Progress
-  [✔] Basics
-- [ ] Classic Techniques  
+- [ ] Basics
+- [ ] Classic Techniques
 - [ ] Advanced Techniques
 - [ ] Shaders
 - [ ] Extra
