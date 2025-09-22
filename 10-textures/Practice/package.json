@@ -1,0 +1,20 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "three": "^0.180.0",
+    "tweakpane": "^4.0.5",
+    "vite": "^7.1.7"
+  }
+}
