@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "three": "^0.180.0",
+    "tweakpane": "^4.0.5",
+    "vite": "^7.1.10"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build"
+  }
+}
