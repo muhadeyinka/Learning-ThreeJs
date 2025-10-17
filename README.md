@@ -27,7 +27,7 @@ This repository contains hands-on implementations of Three.js concepts, organize
 │   └── 05 - Name of Lesson/
 │       ├── Exercises/
 │       └── Practice/
-├── Classic Techniques/  # (live demos available)
+├── Classic Techniques/      # (live demos available)
 │   ├── 06 - Lesson Name/
 │   │   ├── Exercises/    
 │   │   └── Practice/
