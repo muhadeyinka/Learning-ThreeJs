@@ -1,17 +1,13 @@
-# Learning Three.js
+# Three.js Journey 🚀
 
-A collection of projects and exercises from the **Three.js Journey** course by Bruno Simon.
+A collection of projects and exercises from the **Three.js Journey** course by Bruno Simon. This repository documents my progress through web 3D development, from fundamental concepts to advanced techniques.
 
 ## About This Repository
 
-This repository contains my progress through the comprehensive Three.js Journey course, including:
+This repository contains hands-on implementations of Three.js concepts, organized by course progression. Each project demonstrates practical applications of 3D graphics, shaders, and interactive visualizations using WebGL.
 
-- **Practice Projects** - Hands-on implementations of course concepts
-- **Exercises** - Coding challenges and experiments
+## Course Progress
 
-## Course Structure
-
-### Current Progress
 - [ ] Basics
 - [ ] Classic Techniques
 - [ ] Advanced Techniques
@@ -20,14 +16,35 @@ This repository contains my progress through the comprehensive Three.js Journey 
 
 ## Repository Structure
 
-This repository contains practice implementations and personal explorations as I work through the course material. Each folder represents different concepts or techniques being explored:
+```
+├── Basics/
+│   ├── 01 - Lesson Name/
+│   │   ├── Exercises/
+│   │   └── Practice/
+│   ├── 02 - Lesson Name/
+│   │   ├── Exercises/
+│   │   └── Practice/
+│   └── 05 - Name of Lesson/
+│       ├── Exercises/
+│       └── Practice/
+├── Classic Techniques/  # (live demos available)
+│   ├── 06 - Lesson Name/
+│   │   ├── Exercises/    
+│   │   └── Practice/
+│   └── ...
+├── Advanced Techniques/
+│   └── ...
+├── Shaders/
+│   └── ...
+└── Extra/
+    └── ...
+```
 
-- **Practice/** - Personal experimentation and concept testing
-- **Exercises/** - Course exercises as taught by Bruno Simon
+**Note:** Live demos are available for all exercises from Classic Techniques onwards. Projects from Basics run locally with `npm run dev`.
 
-## Development Setup
+## Quick Start
 
-Each project includes its own `package.json` with the necessary dependencies:
+Each project is self-contained with its own dependencies:
 
 ```bash
 cd project-folder
@@ -35,16 +52,29 @@ npm install
 npm run dev
 ```
 
-## Learning Resources
+The development server will start, and you can view the project in your browser.
+
+## Resources
 
 - **Course**: [Three.js Journey](https://threejs-journey.com/) by Bruno Simon
 - **Documentation**: [Three.js Official Docs](https://threejs.org/docs/)
-- **Examples**: [Three.js Examples](https://threejs.org/examples/)
+- **Examples**: [Three.js Examples Collection](https://threejs.org/examples/)
 
-## Notes & Insights
+## Key Topics Covered
 
-Key concepts and techniques I'm learning will be documented in individual project folders.
+Throughout this course, I'm learning:
+- Scene setup and camera configuration
+- Geometries, materials, and lighting
+- Textures and UV mapping
+- 3D transformations and animations
+- Custom shaders and GLSL
+- Performance optimization techniques
+- Interactive 3D experiences
+
+## Notes
+
+Insights, challenges, and key learnings for each concept are documented within individual project folders. This repository serves as both a learning journal and a reference for future Three.js development.
 
 ---
 
-*This repository serves as both a learning journal and reference for future Three.js development.*
+**Last Updated:** October 2025
