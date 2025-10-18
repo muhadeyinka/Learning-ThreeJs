@@ -14,3 +14,4 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+## Or visit https://instanced-3d-text.vercel.app/
