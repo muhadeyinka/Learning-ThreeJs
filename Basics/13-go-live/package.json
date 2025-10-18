@@ -1,0 +1,20 @@
+{
+  "name": "instancing-3d-text",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vite": "^6.2.2",
+    "vite-plugin-restart": "^0.4.2"
+  },
+  "dependencies": {
+    "three": "^0.174.0",
+    "tweakpane": "^4.0.5",
+    "vercel": "^48.4.0"
+  }
+}
