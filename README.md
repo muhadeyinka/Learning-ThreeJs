@@ -27,7 +27,7 @@ This repository contains hands-on implementations of Three.js concepts, organize
 │   └── 05 - Name of Lesson/
 │       ├── Exercises/
 │       └── Practice/
-├── Classic Techniques/      # (live demos available)
+├── Classic Techniques/     
 │   ├── 06 - Lesson Name/
 │   │   ├── Exercises/    
 │   │   └── Practice/
@@ -39,8 +39,6 @@ This repository contains hands-on implementations of Three.js concepts, organize
 └── Extra/
     └── ...
 ```
-
-**Note:** Live demos are available for all exercises from Classic Techniques onwards. Projects from Basics run locally with `npm run dev`.
 
 ## Quick Start
 
