@@ -142,7 +142,10 @@ for(let yIndex = 0; yIndex < parameters.numberOfLayers; yIndex++)
             if(objectCounter >= parameters.numberOfObjects) break;
 
             const xPosition = (xIndex * parameters.spacingX) - xOffset
+
             const yPosition = (yIndex * parameters.spacingY) - yOffset
+            console.log(yPosition)
+
             const zPosition = (zIndex * parameters.spacingZ) - zOffset
             
             objectsGroup.children[objectCounter].position.x = xPosition
@@ -158,7 +161,7 @@ for(let i = 0; i < objectsGroup.children.length; i++)
     objectsGroup.children[i].geometry.computeBoundingBox()
     const height = objectsGroup.children[i].geometry.boundingBox.max.y - objectsGroup.children[i].geometry.boundingBox.min.y
 
-    objectsGroup.children[i].position.y = height / 2
+    objectsGroup.children[i].position.y += height / 2
 
 }
 }
@@ -392,10 +395,10 @@ window.addEventListener('dblclick', () => {
         document.fullscreenElement || document.webkitFullscreenElement
 
     if (!fullscreenElement) {
-        if (canvas.requestFullscreen) {
-            canvas.requestFullscreen()
-        } else if (canvas.webkitRequestFullscreen) {
-            canvas.webkitRequestFullscreen()
+        if (document.body.requestFullscreen) {
+            document.body.requestFullscreen()
+        } else if (document.body.webkitRequestFullscreen) {
+            document.body.webkitRequestFullscreen()
         }
     } else {
         if (document.exitFullscreen) {
@@ -405,6 +408,7 @@ window.addEventListener('dblclick', () => {
         }
     }
 })
+
 /**
  * Animation
  */
