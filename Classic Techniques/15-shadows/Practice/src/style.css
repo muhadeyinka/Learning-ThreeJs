@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+canvas.webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* .tp-dfwv {
+    width: 290px !important;
+} */
